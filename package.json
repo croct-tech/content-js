@@ -1,7 +1,7 @@
 {
   "name": "@croct/content",
   "version": "0.0.0-dev",
-  "description": "A brief description about the project.",
+  "description": "Dynamically generated content module.",
   "author": {
     "name": "Croct",
     "email": "lib+content-js@croct.com",
