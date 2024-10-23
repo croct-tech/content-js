@@ -14,8 +14,6 @@
     "cms",
     "content"
   ],
-  "types": "index.d.ts",
-  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/croct-tech/content-js.git"
