@@ -25,10 +25,7 @@ jobs:
 
       - name: Install dependencies
         if: steps.cache-dependencies.outputs.cache-hit != 'true'
-        run: |-
-          echo "//npm.pkg.github.com/:_authToken=${{ secrets.GH_PACKAGES_TOKEN }}" >> ~/.npmrc
-          npm ci
-          rm -rf ~/.npmrc
+        run: npm ci
 
       - name: Build package
         run: |-
