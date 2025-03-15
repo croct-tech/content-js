@@ -18,6 +18,7 @@
     "noEmit": true,
     "downlevelIteration": true,
     "declaration": true,
+    "isolatedModules": true
   },
   "include": [
     "src/**/*.ts",
