@@ -14,7 +14,7 @@ jobs:
         with:
           node-version: 20
         env:
-          NODE_AUTH_TOKEN: ${{ secrets.GH_PACKAGES_TOKEN }}
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
       - name: Cache dependencies
         id: cache-dependencies
@@ -28,8 +28,7 @@ jobs:
         run: npm ci
 
       - name: Build package
-        run: |-
-          npm run build
+        run: npm run build
 
       - name: Prepare release
         run: |-
@@ -42,13 +41,9 @@ jobs:
         run: |-
           cd build
           npm publish --access public --tag next
-        env:
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
 
       - name: Publish release to NPM
         if: ${{ !github.event.release.prerelease }}
         run: |-
           cd build
           npm publish --access public
-        env:
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
