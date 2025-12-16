@@ -19,8 +19,6 @@
 <p align="center">
     <a href="https://www.npmjs.com/package/@croct/content"><img alt="Version" src="https://img.shields.io/npm/v/@croct/content"/></a>
     <a href="https://github.com/croct-tech/content-js/actions/workflows/branch-validations.yaml"><img alt="Build" src="https://github.com/croct-tech/content-js/actions/workflows/branch-validations.yaml/badge.svg" /></a>
-    <a href="https://codeclimate.com/repos/67c49c604469e618a130085a/test_coverage"><img src="https://api.codeclimate.com/v1/badges/6e959269022152449380/test_coverage" /></a>
-    <a href="https://codeclimate.com/repos/67c49c604469e618a130085a/maintainability"><img src="https://api.codeclimate.com/v1/badges/6e959269022152449380/maintainability" /></a>
 </p>
 
 ## Introduction
