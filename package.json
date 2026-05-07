@@ -50,8 +50,8 @@
   },
   "devDependencies": {
     "@croct/eslint-plugin": "^0.7.0",
-    "@swc/jest": "^0.2.24",
-    "@types/jest": "^29.0.0",
+    "@swc/jest": "^0.2.39",
+    "@types/jest": "^30.0.0",
     "@typescript-eslint/parser": "^8.0.0",
     "esbuild-fix-imports-plugin": "^1.0.19",
     "eslint": "^8.57.1",
